@@ -7,7 +7,6 @@ library(tidyverse)
 install.packages("tidyverse") # SUGGESTION: Make sure to install packages before loading "library()" them - CL
 
 # Read the data into a dataframe
-# ufod <- read.csv("/Users/nehakodali/Desktop/Mbiotech/Coding_in_R/ufo_subset.csv")
 # SUGGESTION: Make sure your ufo_subset.csv file is loaded into your repo - CL
 ## ufod <- read.csv("/Users/nehakodali/Desktop/Mbiotech/Coding_in_R/ufo_subset.csv")
 ufod <- read.csv("ufo_subset.csv")
