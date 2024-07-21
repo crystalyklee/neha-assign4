@@ -24,8 +24,7 @@ summary(ufod$duration.seconds)
 ufod <- ufod %>%
   mutate(
     # COMMENT: Good! But upon inspecting the country and shape column, we see there are no NAs,
-    # instead, there are a bunch of blank entries. Try replacing those blank entries
-    # with "NA" or "unknown" or whatever you see fit - CL
+    # instead, there are a bunch of blank entries. What can you do with those blank entries? - CL
     country = ifelse(is.na(country), "Unknown", country), 
     shape = ifelse(is.na(shape), "Unknown", shape),
   
